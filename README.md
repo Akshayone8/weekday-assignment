@@ -37,3 +37,6 @@ src/
   ├── constants.jsx
   ├── data.json
 ```
+
+![Screenshot 2024-05-05 at 3 03 54 PM](https://github.com/Akshayone8/weekday-assignment/assets/62467248/18f7e2df-0e81-49a2-99b3-826c3be6bdb9)
+
