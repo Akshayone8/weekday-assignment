@@ -16,7 +16,7 @@ const SingleSelect = ({ options, name, onChange }) => {
   };
 
   return (
-    <FormControl fullWidth>
+    <FormControl sx={{ width: 300 }} size="small">
       <InputLabel
         id="name"
         style={{
