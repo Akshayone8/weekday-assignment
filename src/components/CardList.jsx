@@ -1,7 +1,21 @@
-import React from "react";
+import { Grid } from "@mui/material";
+import PropTypes from "prop-types";
+import Card from "./Card";
 
-const CardList = () => {
-  return <div>CardList</div>;
+const CardList = ({ data }) => {
+  return (
+    <Grid container lg={12} padding={2} spacing={2}>
+      {data.map((card, id) => (
+        <Grid item lg={4} xs={12} sm={6} key={id}>
+          <Card data={card} />
+        </Grid>
+      ))}
+    </Grid>
+  );
+};
+
+CardList.propTypes = {
+  data: PropTypes.array.isRequired,
 };
 
 export default CardList;
